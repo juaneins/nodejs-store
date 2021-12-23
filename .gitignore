@@ -99,6 +99,8 @@ web_modules/
 
 # Optional npm cache directory
 .npm
+# zip files
+*.zip
 
 # Optional eslint cache
 .eslintcache
