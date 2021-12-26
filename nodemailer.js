@@ -12,6 +12,7 @@ async function sendMail() {
     host: 'smtp.ethereal.email',
     port: 587,
     secure: false, // true for 465, false for other ports
+    security: 'STARTTLS',
     auth: {
       //   user: testAccount.user, // generated ethereal user
       //   pass: testAccount.pass, // generated ethereal password
